@@ -10,7 +10,7 @@ import io from "socket.io-client"
 import "./App.css"
 
 
-const socket = io.connect('39.96.36.20:5015/') //guarded-castle-83998.herokuapp.com/')
+const socket = io.connect('localhost:5015/') //guarded-castle-83998.herokuapp.com/')
 function App() {
 	const [ me, setMe ] = useState("")
 	const [ stream, setStream ] = useState()
